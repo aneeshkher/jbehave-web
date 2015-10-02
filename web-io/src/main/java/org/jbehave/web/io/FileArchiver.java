@@ -1,4 +1,4 @@
-ackage org.jbehave.web.io;
+package org.jbehave.web.io;
 
 import java.io.File;
 import java.util.List;
@@ -14,7 +14,7 @@ public interface FileArchiver {
 	
 	void unarchive(File archive, File directory);
 
-	List<File> listContent(File directory)
+	List<File> listContent(File directory);
 
 	File directoryOf(File archive);	
 
