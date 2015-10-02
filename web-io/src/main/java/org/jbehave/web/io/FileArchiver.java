@@ -12,7 +12,7 @@ public interface FileArchiver {
 
 	void archive(File archive, File directory);
 	
-	void unarchive(File archive, File directory)
+	void unarchive(File archive, File directory);
 
 	List<File> listContent(File directory)
 
