@@ -14,7 +14,7 @@ public interface FileArchiver {
 	
 	void unarchive(File archive, File directory);
 
-	List<File> listContent(File directory);
+	List<File> listContent(File directory)
 
 	File directoryOf(File archive);	
 
